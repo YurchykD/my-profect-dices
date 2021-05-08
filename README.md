@@ -1,1 +1,1 @@
-# my-profect-dices
+# my-project-dices
