@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript</title>
+
+  <link rel="stylesheet" href="dices.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+    <div class="col-sm-4">
+      <div class="calc">
+          <div class="form-group">
+             <h3>Посчитать очки костей</h3>
+                <label for="inp_1">Введите выпавшие числа:</label> 
+                    <input type="text" class="form-control" id="inp_1">
+           </div>
+                <button onclick="countCombination()" class="btn btn-primary">Рассчиать</button>
+      <hr>
+      <p class="res">Рeзультат: 
+                  <span class="first" id="result_dice1"></span>
+                  <span class="second" id="result_dice12345"></span>
+                  <span class="third" id="result_dice23456"></span>
+                  <span class="error" id="error"></span>
+                </p> 
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="dices.js"></script>
+</body>
+</html>
