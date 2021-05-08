@@ -1,1 +1,1 @@
-# my-project-dices
+# My project Dices
